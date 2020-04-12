@@ -1,7 +1,7 @@
 {
-  "name": "react-boilerplate",
+  "name": "react-custom-boilerplate",
   "version": "1.0.0",
-  "description": "react-boilerplate",
+  "description": "react-custom-boilerplate",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
