@@ -12,13 +12,15 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: [path.resolve(__dirname, 'node_modules')],
-        use:{
-          loader: 'babel-loader'
-        }
+        use: ['babel-loader']
       },
       {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        use: ['file-loader'],
       },
     ]
   },
